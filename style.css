@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vw; */
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #741b47, #570e6d);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-1 {
+    color: white;
+    text-align: center;
+}
+
+.container-1 h1 {
+    font-size: 4rem;
+}
+
+.container-1 h4 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.container-1 form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container-1 form input:focus {
+    outline: none;
+}
+
+.container-1 form input,
+button {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    color: #da1c7b;
+}
+
+.card-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-container .card {
+    background-color: white;
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+.card-container .card img {
+    width: 65%;
+}
+
+.card-container .card h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
