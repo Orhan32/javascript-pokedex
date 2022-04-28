@@ -1,4 +1,4 @@
-Pokemon Cards App
+<h1>Pokemon Cards App</h1>
 
 This application has been prepared using the PokéAPI API (https://pokeapi.co/).
 
