@@ -30,10 +30,10 @@ pokeInput.addEventListener("input", function () {
     pokes.forEach(card => {
         const text = card.textContent.toLocaleLowerCase();
         if (text.indexOf(search) === -1) {
-            card.parentElement.setAttribute("style", "display:none");
+            card.parentElement.style.display = "none";
         }
         else {
-            card.parentElement.setAttribute("style", "display:block");
+            card.parentElement.style.display = "block";
         }
     });
 
